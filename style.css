@@ -1,0 +1,80 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+/*-----Applies to everything--------*/
+body{
+    background-color:#01011D;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10%;
+}
+
+.card {
+    background-color: #060e31;
+    display: flex;
+    text-align: left;
+    border-radius: 10px; /* 5px rounded corners */
+    overflow: hidden;
+    position: relative;
+}
+
+
+.card-body{
+    padding: 3rem;
+    position: inherit;
+    text-align: left;
+}
+
+/*--x---Applies to everything-----x---*/
+
+.image{
+    opacity: 0.4;
+    object-fit: cover;
+    background-color: #060e31;
+}
+
+
+
+/*--------Top--------*/ 
+p.first-p{
+    color: white;
+    font-weight: bold;
+}
+
+span.insights{
+    color: blue;
+    font-weight: bold;
+}
+/*----x----Top---x-----*/ 
+
+
+
+/*-------Middle---------*/
+p.second-p{
+    color: rgb(189, 144, 144);
+}
+/*----x---Middle----x-----*/
+
+
+
+/*------Bottom-------*/
+.card-block{
+    color: white;
+    position: absolute;
+    display: flex;
+}
+table{
+    bottom: 0%;
+    width: 100%;
+    color: white;
+    position: absolute;
+    bottom: 10%;
+}
+
+tbody{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: small;
+    color: rgb(189, 144, 144);
+}
+/*---x---Bottom----x---*/
